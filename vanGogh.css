@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+code {
+  border-radius: 0.25em;
+  border: 1px solid silver;
+}
+.paintingSize {
+  width: 300px;
+  height: 350px;
+  border: 9px double white;
+  opacity: 0.8;
+}
+.paintingSize:hover {
+  opacity: 1;
+}
+
+.button {
+  font-family: "Syne Tactile", cursive;
+  color: maroon;
+  border-radius: 50px;
+  background-color: silver;
+}
+h1,
+h2,
+h3 {
+  font-family: "Lobster", cursive;
+  text-align: center;
+}
+p {
+  font-family: "Lobster", cursive;
+  text-align: center;
+}
+.name {
+  text-align: center;
+}
+li {
+  text-align: center;
+  list-style-type: none;
+}
+.paintingz {
+  border: 2px solid transparent;
+  padding: 3em;
+  display: inline-block;
+  text-align: center;
+}
