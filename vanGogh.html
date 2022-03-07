@@ -1,0 +1,17 @@
+<html>
+<head>
+<link rel = "stylesheet" href="vanGogh.css">
+  <script src="vanGogh.js"></script>
+</head>
+<body>
+<div id="app">
+  <h1>{{ product }}</h1>
+  <h2>Let's enjoy some {{ product }} of Vincet van Gogh in this online exhibition</h2>
+  <p>Please hover on each painting to see it clearly!</p>
+  <!--I want an alert that informs the user to hover over each image to see it clearly-->
+  <painting v-for="painting in paintings" :painting="painting"></painting>
+  <h3>Source of information: https://www.vincentvangogh.org </h3>
+  <p>Thanks to David, Yvonne, Pam, and Jianan for guiding me in making this</p>
+</div>
+</body>
+</html>
